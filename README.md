@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center"> JBS - Ecommerce </h1>
 
-## Getting Started
+<p align="center">
+  Um E-commerce voltado para dispositivos tecnológicos, desenvolvido com NextJS, ReactJS e Typescript.
+</p>
 
-First, run the development server:
+<h2 align="center">Tabela de Conteúdos</h2>
+<p align="center">
+  • <a href="#sobre">Sobre</a>
+  • <a href="#funcionalidades">Funcionalidades</a>
+  • <a href="#tecnologias">Tecnologias</a> 
+  • <a href="#status">Status do Projeto</a> 
+  • <a href="#autor">Autor</a>
+  • <a href="#licenca">Licença</a>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<h2 align="center" id="sobre">Sobre</h2>
+<p align="justify">Um E-commerce voltado para dispositivos tecnológicos, Mobile, Noteboos e Acessórios. Produtos de diversas marcas e modelos.</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h3 align="left" id="funcionalidades">Funcionalidades</h3>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- [x] Fazer busca de produtos por palavras chaves;
+- [x] Adicionar os produtos no carrinho de compras;
+- [x] Remover os produtos do carrinho de compras;
+- [x] Finalizar a compra via stripe, com cartão de crédito;
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+<h3 align="left" id="layout">Versao Web</h3>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+ ![ezgif com-gif-maker (7)](https://user-images.githubusercontent.com/11697713/213468159-f07d8e04-0293-410a-8862-525eaeb7a0a7.gif)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<h3 align="left" id="tecnologias">🛠 Tecnologias</h3>
+<p align="justify">As seguintes Tecnologias e APIS que foram usadas na construção do projeto</p>
 
-## Learn More
+- [Node.js](https://nodejs.org/en/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [ReactJS](https://pt-br.reactjs.org/)
+- [Next.Js](https://nextjs.org/)
+- [MongoDB](https://cloud.mongodb.com)
+- [Stripe](https://stripe.com/br)
 
-To learn more about Next.js, take a look at the following resources:
+<h2 align="left" id="status">Status do Projeto</h2>
+<p align="left"> 🚧  Next.js & ReactJS 🚀 Versão 1.0 Finalizada.  🚧.</p>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<h2 align="left" id="autor">🦸 Autor</h2>
+<a href="https://github.com/JailsonSantos">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/11697713?s=96&v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Jailson Santos</b></sub></a> <a href="https://www.linkedin.com/in/jailson-santos-726395104/" title="Jailson Santos">🚀</a>
+ <br />
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+[![Linkedin Badge](https://img.shields.io/badge/-Jailson-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jailson-santos-726395104/)](https://www.linkedin.com/in/jailson-santos-726395104/) 
+[![Gmail Badge](https://img.shields.io/badge/-jailson.ads007@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jailson.ads007@gmail.com)](mailto:jailson.ads007@gmail.com)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<h2 align="left" id="licenca">📝 Licença</h2>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este projeto esta sobe a licença [MIT](./LICENSE).
+
+Feito com ❤️ por Jailson Santos 👋🏽 [Entre em contato!](https://www.linkedin.com/in/jailson-santos-726395104/)
