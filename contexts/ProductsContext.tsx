@@ -7,7 +7,7 @@ export interface IProductContext {
 
 interface ProductsContextType {
   selectedProducts: IProductContext[]
-  setSelectedProducts: (products: IProductContext) => void
+  setSelectedProducts: (products: any) => void
 }
 
 type ProductProviderProps = {

@@ -13,11 +13,13 @@ export default async function handle(req: NextApiRequest, res: NextApiResponse) 
 
   await initMongoose();
 
-  const { ids } = req.query;
+  let ids = req.query.ids !== undefined ? req.query.ids : ''
 
   if (method === 'GET' && ids !== undefined) {
 
-    const isArray = ids.split(',');
+    let newArray = String(ids)
+
+    const isArray = ids !== undefined ? newArray.split(',') : '';
 
     try {
       const listProductsIds = await Product.find({ '_id': { $in: isArray } }).exec();

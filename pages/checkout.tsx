@@ -46,16 +46,17 @@ export default function CheckoutPage() {
   }, [selectedProducts])
 
   function moreOfThisProduct(id: string) {
-    setSelectedProducts(prev => [...prev, id])
+
+    setSelectedProducts((prev: any) => [...prev, id])
   }
 
-  function lessOfThisProduct(id: string) {
+  function lessOfThisProduct(id: any) {
 
     const pos = selectedProducts.indexOf(id);
     if (pos !== -1) {
 
-      setSelectedProducts(prev => {
-        return prev.filter((value, index) => index !== pos)
+      setSelectedProducts((prev: any[]) => {
+        return prev.filter((value: any, index: number) => index !== pos)
       })
     }
   }
